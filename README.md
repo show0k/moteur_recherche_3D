@@ -8,6 +8,7 @@ Le moteur de recherche fonctionne avec des images au format wavefront (.obj) ; v
 
 # Fonctionnement
 * Le calcul des histogrammes des images (au format wavefront) est effectué en java côté serveur. Il est enregistré dans un fichier texte qui est chargé au démarrage ou re-crée s'il n'existe pas.
+* Un servlet permet de faire le lien entre la partie serveur en java utilisant le moteur de servlet apache tomcat et la partie client en javascript.
 * Lorsqu'on importe une nouvelle image, on calcule sa signature et on la compare avec celles existantes.
 
 ## Caractérisation des images
