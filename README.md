@@ -4,7 +4,7 @@ moteur_recherche_3D
 Moteur de recherche d'image 3D fonctionant avec un servlet et utilisant JSC3D pour le rendu côté client.
 
 # Utilisation :
-Le moteur de recherche fonctionne avec des images au format wavefront (.obj) ; vous pouvez en trouver sur internet ou convertir des images existantes avec (meshconv)[http://www.cs.princeton.edu/~min/meshconv/].
+Le moteur de recherche fonctionne avec des images au format wavefront (.obj) ; vous pouvez en trouver sur internet ou convertir des images existantes avec [meshconv](http://www.cs.princeton.edu/~min/meshconv/).
 
 # Fonctionnement
 * Le calcul des histogrammes des images (au format wavefront) est effectué en java côté serveur. Il est enregistré dans un fichier texte qui est chargé au démarrage ou re-crée s'il n'existe pas.
